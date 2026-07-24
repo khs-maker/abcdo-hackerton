@@ -1,0 +1,61 @@
+[
+  {
+    "id": "q-1",
+    "type": "QUESTION",
+    "props": {
+      "id": "q-1",
+      "question": "AURA Layer 피봇 기획안에 동의하십니까?",
+      "options": ["YES", "NO", "DONT_KNOW"]
+    }
+  },
+  {
+    "id": "c-1",
+    "type": "CHECKLIST",
+    "props": {
+      "items": [
+        { "id": "i-1", "text": "UI/UX 컴포넌트 Props 정의", "checked": true },
+        { "id": "i-2", "text": "TypeScript 인터페이스 설계", "checked": true },
+        { "id": "i-3", "text": "백엔드 개발팀과 데이터 규격 싱크업", "checked": false }
+      ]
+    }
+  },
+  {
+    "id": "l-1",
+    "type": "LINK",
+    "props": {
+      "title": "AURA 프로젝트 메인 저장소",
+      "url": "https://github.com",
+      "institution": "AURA 테크팀 개발본부"
+    }
+  },
+  {
+    "id": "a-1",
+    "type": "ACTION",
+    "props": {
+      "type": "CALL",
+      "payload": {
+        "phoneNumber": "010-1234-5678",
+        "script": "긴급 상황 시 PM에게 전화를 연결합니다."
+      }
+    }
+  },
+  {
+    "id": "a-2",
+    "type": "ACTION",
+    "props": {
+      "type": "SHARE",
+      "payload": {
+        "shareUrl": "https://aura-project.com/share",
+        "script": "팀원들에게 이 프로젝트 규격을 공유하세요."
+      }
+    }
+  },
+  {
+    "id": "audio-1",
+    "type": "AUDIO_PLAYER",
+    "props": {
+      "textToSpeech": "안녕하세요. 아우라 레이어 시스템 작동 테스트 중입니다. 자동 재생이 설정되어 있습니다.",
+      "autoPlay": true
+    }
+  }
+]
